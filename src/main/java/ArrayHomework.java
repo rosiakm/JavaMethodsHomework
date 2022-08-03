@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 public class ArrayHomework {
@@ -10,8 +11,8 @@ public class ArrayHomework {
         double[] array = new double[size];
 
         for (int i = 0; i < size; i++){
-            System.out.println("Please provide an integer to store in the table for index: " + i);
-            double value = scanner.nextInt();
+            System.out.println("Please provide an integer to store in array under index: " + i);
+            double value = scanner.nextDouble();
             array[i] = value;
         }
 
